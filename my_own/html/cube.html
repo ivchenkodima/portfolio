@@ -1,0 +1,27 @@
+<!doctype tml>
+<meta carset = "utf-8">
+<!-- <link rel="stylesheet" href= "grad.css"> -->
+<link rel="stylesheet" href= "cube.css">
+<div id="wrap">
+	<div id="cube">
+		<li class="side" id="first">1</li>
+		<li class="side" id="second">2</li>
+		<li class="side" id="third">3</li>
+		<li class="side" id="fourth">4</li>
+		<li class="side" id="fifth">5</li>
+		<li class="side" id="six">6</li>
+	</div>
+
+</div>
+
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script>
+$(function(){
+	$(document).mousemove(function(e){
+		$('#cube').css({
+			'-moz-transform':'rotateX('+e.pageY +'deg) rotateY('
+				+e.pageX +'deg)'
+		});
+	});
+});
+</script>

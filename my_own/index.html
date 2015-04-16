@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		
+		<title>Ivchenko Personal site </title>
+		<link rel="stylesheet" href = "css/my_css.css" type="text/css" >
+		<link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700,400italic,700italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+	
+	
+	</head>
+	<body>
+		<header class="container header  clearfix ">  
+			<div class="header-logo">
+				<h1 class="title">Ивченко Дмитрий Анатольевич</h1>
+				<h4 class="subtitle">Jedi of Frontend development</h4>
+			</div>
+			<nav class="header-nav">
+				<ul>
+					<li><a href="#works">Работы</a></li>
+					<li><a href="#clients">Клиеты</a></li>
+					<li><a href="#utillities">Услуги</a></li>
+					<li><a href="#about_me">Обо мне</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main role="main">	
+			<!-- Slider #Works -->
+			<div class="slider" id="works"> 
+				<div class="slider-container">
+					<div class="slider-container-item" id="works_item_first"></div>
+					 <!-- <li class="slider-container-item" id="works_item_second">Second</li> -->
+					<!-- <li class="slider-container-item" id="works_item_third">Third</li> -->
+				</div>
+				<div class="slider-controls">
+					<a class="next" href="#"></a>
+					<a class="prev" href="#"></a>
+				</div>
+				<ul class="slider-indicators">
+					<li class="slider-indicator-item active" data-item-indicator="works_item_first"></li>
+					<li class="slider-indicator-item" data-item-indicator="works_item_second"></li>
+					<li class="slider-indicator-item" data-item-indicator="works_item_third"></li>
+					<li class="slider-indicator-item" data-item-indicator="works_item_fourth"></li>
+				</ul>
+			</div>
+			<!-- ./Slider #Works -->
+			<!-- Slider #Review -->
+			<h2 class="firm-title">Отзывы клиентов</h2>
+			<div class="slider" id="reviews"> 
+				<ul class="slider-container">
+					<li class="slider-container-item" id="reviews_item_brent">
+						<figure>
+							<img src="images/brent.png" alt="Brent photo for review">
+							<figcaption>
+								<p>
+									&#8220;To deal with a problem or difficulty calmly and not to allow it to influence what you are doing&#8221;
+								</p>
+								<h3>-Николай Федоров. ТОВ "Декаданс медиа"</h3>
+							</figcaption>
+							
+						</figure>
+					</li>
+				</ul>
+				<ul class="slider-indicators">
+					<li class="slider-indicator-item active" data-item-indicator="reviews_item_brent">
+						<img src="images/brent_s.png" alt="brent">
+					</li>
+					<li class="slider-indicator-item " data-item-indicator="reviews_item_carl">
+						<img src="images/carl_s.png" alt="carl photo">
+					</li>
+					<li class="slider-indicator-item" data-item-indicator="reviews_item_will">
+						<img src="images/will_s.png" alt="will photo">
+					</li>
+				</ul>
+			</div>
+			<!-- ./Slider #Reviews -->
+			<!-- Subscribe row -->
+			<div class="container subscribe">
+				<div class="subscribe-title">
+					Подписаться на новости
+				</div>
+				<div class="subscribe-input">
+					<form class="subscribe-input-form">
+						<input type="email" placeholder="Введите свой email"  />
+						<button class="button"></button>
+					</form>
+				</div>
+				<div class="subscribe-description">
+					Рассылка новых проектов и статтей
+				</div>
+			</div>
+			<!-- ./Subsribe row -->
+			<!-- Utilities  -->
+			<div class="container utilities" >
+				<h2 class="title">Предоставляемые услуги</h2>
+				<dl class="utilities-list">
+					<dt class="active">
+						Создание WEB-сайтов "под ключ"</dt>
+					<dd>
+						<ul>
+							<li>Создание дизайна корпоративного и личных сайтов</li>
+							<li>Верстка готовых макетов</li>
+							<li>Адаптирование сайта под мобильные устройства</li>
+							<li>Настройка макета под работу с популярными CMS (Wordpress, Joomla)</li>
+							<li>Поисковая оптимизация сайта (Google, Yandex, Bing)</li>
+							<li>Создание инструкций по ведению сайта</li>
+							<li>Мониторинг работы вашего сайта после создания</li>
+						</ul>
+					</dd>
+					<dt>Логотипы и фирменные стили</dt>
+						<dd>
+							<ul>
+								<li>Создание логотипов для будущей фирмы</li>
+								<li>Создание фирменного стиля </li>
+								<li></li>
+
+							</ul>
+						</dd>
+					<dt>Оформление страниц в соц.сетях(Facebook, YouTube, Vkontakte и др.)</dt>
+						<dd>
+							<ul>
+								<li></li>
+								<li></li>
+								<li></li>
+
+						</dd>
+				</dl>
+			</div>
+			<!-- /.utilities -->
+			<div class="container aboutMe">
+				<figure class="aboutMe-info">
+					<img src="images/my_foto.png" alt="my photo">
+					<figcaption>
+						<h2 class="title">
+							Ивченко Дмитрий Анатольевич
+						</h2>
+						<h4>
+							Jedi of Frontend development &amp; graphical 	designer
+						</h4>
+						<p>
+							Имею многолетний опыт в разработке веб-сайтов и графическом дизайне. Внимательно отношусь к пожеланиям клиента и выдерживаю оговоренные сроки.
+						</p>
+					</figcaption>
+				</figure>
+				<ul class="aboutMe-contacts">
+					<li>г. Киев,  ул. Панаса Мирного,  д. 31, оф. 16</li>
+					<li>тел. +38 (097) 432-12-23</li>
+					<li>Skype: darkstranger_web</li>
+					<li>email: tempatation_web@satisfaction.com</li>
+				</ul>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="container footer-menu">
+				<div>
+					<h3>Услуги</h3>	
+					<ul>
+						<li>
+							<a href="">Создание сайта</a>
+						</li>
+						<li>
+							<a href="">Логотип и фирменный стиль</a>
+						</li>
+						<li>
+							<a href="">Оформление соц.сетей</a>
+						</li>
+					</ul>
+				</div>
+				<div>
+					<h3>Портфолио</h3>	
+					<ul>	
+						<li>Графический дизайн</li>
+						<li>Логотипы</li>
+						<li>Сайты</li>
+						<li>Соц. сети</li>
+						<li>Фотография</li>
+					</ul>
+				</div>
+				<div>
+					<h3>Обо мне</h3>
+					<ul>
+						<li>
+							<a href="#about_me">Контакты</a>
+						</li>
+						<li>
+							<a href="">История</a>
+						</li>
+						<li>
+							<a href="">Отзывы</a>
+						</li>
+						<li>
+							<a href="#clients">Клиенты</a>
+						</li>
+					</ul>
+				</div>
+				<div>
+					<h3>Соц.сети</h3>
+					<ul>
+						<li>
+							<a href="vk.com">Вконтакте</a>
+						</li>
+						<li>
+							<a href="facebook">Facebook</a>
+						</li>
+						<li>
+							<a href="Dribble">Dribble</a>
+						</li>
+						<li>
+							<a href="Behance">Behance
+						</li>
+						<li>
+							<a href="Vimeo">Vimeo</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="container footer-copyright">
+				&copy; 
+				2014 Ivchenko Dmytro
+			</div>
+		</footer>
+	</body>
+</html>
+
